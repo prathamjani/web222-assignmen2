@@ -1,0 +1,116 @@
+/* ********************************************************************************
+ *  WEB222 – Assignment 2
+ *  I declare that this assignment is my own work in accordance with Seneca  Academic Policy.
+ *  No part of this assignment has been copied manually or electronically from any other source
+ *  (including web sites) or distributed to other students.
+ *
+ *  Name: Pratham Jayesh Jani ,Student ID: 134947209 ,Date: 04/07/21
+ ******************************************************************************* */
+
+body,
+html {
+  margin: 0;
+  height: 100vh;
+}
+
+#hero {
+  height: 100vh;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  height: 7vh;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  font-weight: bold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.hero-image {
+  background-image: url("bg_unsplash.jpg");
+  height: 93vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: black;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(65, 57, 57);
+  font-weight: bold;
+}
+
+.hero-text h1 {
+  font-size: 65px;
+  margin-bottom: 0;
+}
+
+.hero-text p {
+  margin-top: 5px;
+  font-size: 30px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 50% 50%;
+  grid-row-gap: 50px;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.adventures {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.adventures img {
+  object-fit: fill;
+  width: 300px;
+  height: 400px;
+}
+
+.adventures button {
+  background-color: #eb676a;
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.adventures button a {
+  color: white;
+  text-decoration: none;
+}
+
+.margin-top {
+  margin-top: 7px;
+}
+
+footer {
+  margin-top: 50px;
+  font-weight: bold;
+  padding: 15px 0 0 0;
+  height: 40px;
+  width: 100%;
+  background-color: #071a3e;
+  color: white;
+  text-align: center;
+}
